@@ -14,5 +14,5 @@ json данные
     "OperatorType" : 3
 }
 
-![alt text](image1.png "Visual Studio Trace")
-![alt text](image2.png "Azure Portal Trace")
+![alt text](image1.jpg "Visual Studio Trace")
+![alt text](image2.jpg "Azure Portal Trace")
