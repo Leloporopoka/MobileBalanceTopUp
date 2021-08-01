@@ -14,5 +14,5 @@ json данные
     "OperatorType" : 3
 }
 
-![Image alt](https://github.com/Leloporopoka/MobileBalanceTopUp/raw/master/image1.jpg)
-![Image alt](https://github.com/Leloporopoka/MobileBalanceTopUp/raw/master/image2.jpg)
+![Image alt](https://github.com/Leloporopoka/MobileBalanceTopUp/raw/master/image1.JPG)
+![Image alt](https://github.com/Leloporopoka/MobileBalanceTopUp/raw/master/image2.JPG)
