@@ -14,5 +14,5 @@ json данные
     "OperatorType" : 3
 }
 
-![alt text](image1.jpg "Visual Studio Trace")
-![alt text](image2.jpg "Azure Portal Trace")
+![Image alt](https://github.com/Leloporopoka/MobileBalanceTopUp/raw/master/image1.jpg)
+![Image alt](https://github.com/Leloporopoka/MobileBalanceTopUp/raw/master/image2.jpg)
