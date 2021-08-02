@@ -34,7 +34,7 @@ namespace Application.Commands.TopUpBalance
             catch (Exception ex)
             {
                 _logger.LogError(ex, $"Something went wrong  {ex.ToString() + ex.InnerException}");
-                return new Response { StatusCode = 200, Message = "Произошла ошибка при пополнении баланса" };
+                return new Response { StatusCode = 500, Message = "Произошла ошибка при пополнении баланса" };
             }
         }
     }
