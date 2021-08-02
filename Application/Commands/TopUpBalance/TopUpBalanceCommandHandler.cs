@@ -28,12 +28,12 @@ namespace Application.Commands.TopUpBalance
                     Amount = request.Amount,
                     OperatorType = request.OperatorType
                 });
-                _logger.LogTrace($"Баланс телефона {request.PhoneNumber} был пополнен на сумму {request.Amount}, оператор {request.OperatorType} ");
+                _logger.LogInformation($"Баланс телефона {request.PhoneNumber} был пополнен на сумму {request.Amount}, оператор {request.OperatorType} ");
                 return new Response { StatusCode = 200, Message = "Баланс успешно пополнен" };
             }
             catch (Exception ex)
             {
-                _logger.LogTrace(ex, $"Something went wrong  {ex.ToString() + ex.InnerException}");
+                _logger.LogError(ex, $"Something went wrong  {ex.ToString() + ex.InnerException}");
                 return new Response { StatusCode = 200, Message = "Произошла ошибка при пополнении баланса" };
             }
         }

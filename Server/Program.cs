@@ -1,8 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Logging.ApplicationInsights;
 
 namespace Server
 {
@@ -18,15 +16,7 @@ namespace Server
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
-                }).ConfigureLogging((context, builder) =>
-                {
-                    builder.AddApplicationInsights(
-                        context.Configuration["APPINSIGHTS_CONNECTIONSTRING"]);
-
-                    builder.AddFilter<ApplicationInsightsLoggerProvider>("", LogLevel.Trace);
                 });
-
-
 
     }
 }

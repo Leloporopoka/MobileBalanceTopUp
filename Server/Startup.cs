@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 
 namespace Server
 {
@@ -22,7 +23,7 @@ namespace Server
         {
             services.AddControllers();
             services.AddApplication();
-            services.AddApplicationInsightsTelemetry(Configuration["APPINSIGHTS_CONNECTIONSTRING"]);
+            services.AddApplicationInsightsTelemetry("InstrumentationKey=df236082-5048-41dc-854c-b5389d3fbe1e;IngestionEndpoint=https://westeurope-1.in.applicationinsights.azure.com/");
 
         }
 

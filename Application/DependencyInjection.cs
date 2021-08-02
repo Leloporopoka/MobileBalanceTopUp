@@ -17,8 +17,6 @@ namespace Application
             services.AddSingleton<Tele2OperatorService>();
 
             services.AddSingleton<TopUpBalanceService>();
-            //services.AddSingleton<ILoggerFactory, LoggerFactory>();
-            //services.AddSingleton(typeof(ILogger<>), typeof(Logger<>));
         }
     }
 }
