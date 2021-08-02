@@ -15,3 +15,6 @@ json данные
 
 ![Image alt](https://github.com/Leloporopoka/MobileBalanceTopUp/raw/master/image1.JPG)
 ![Image alt](https://github.com/Leloporopoka/MobileBalanceTopUp/raw/master/image3.JPG)
+
+Диаграмма работы
+![Image alt](https://github.com/Leloporopoka/MobileBalanceTopUp/raw/master/activity.png)
